@@ -1,0 +1,67 @@
+
+
+section {
+    position: absolute;
+    left: 480px;
+    top: 200px;
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
+
+#button1 {
+ 
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(169, 169, 169);
+    color: white;
+    font-size: 40px;
+    margin: 9px;
+}
+#button1:hover {
+    background-color: white;
+    color: rgb(169, 169, 169);
+}
+#button1:focus {
+    outline: 0;
+}
+
+#button2 {
+    
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(169, 169, 169);
+    color: white;
+    font-size: 40px;
+    margin: 9px;
+}
+#button2:hover {
+    background-color: white;
+    color: rgb(169, 169, 169);
+}
+#button2:focus {
+    outline: 0;
+}
+
+#inputField{
+
+    border-radius: 15px;
+    width: 150px;
+    height: 80px;
+    font-size: 40px;
+    border: solid 4px rgb(169, 169, 169);
+    margin: 9px;
+
+}
+
+#countDisplay {
+    position: relative;
+    font-family: sans-serif;
+    left: 165px;
+    bottom: 50px;
+    font-size: 100px;
+    margin: 0;
+    
+}
